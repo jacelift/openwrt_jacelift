@@ -1,8 +1,8 @@
 #=======================jacelift-start====================
-src-git packages https://github.com/jacelift/packages.git
-src-git luci https://github.com/jacelift/luci.git
-src-git routing https://github.com/jacelift/routing.git
-src-git telephony https://github.com/jacelift/telephony.git
+src-git packages https://github.com/jacelift/openwrt-packages.git
+src-git luci https://github.com/jacelift/openwrt-luci.git
+src-git routing https://github.com/jacelift/openwrt-routing.git
+src-git telephony https://github.com/jacelift/openwrt-telephony.git
 src-git management https://github.com/jacelift/openwrt-management_packages.git
 #src-git video https://github.com/openwrt/video.git
 #src-git targets https://github.com/openwrt/targets.git
