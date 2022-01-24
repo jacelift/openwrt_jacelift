@@ -9,6 +9,14 @@
   "clone_url": "https://github.com/jacelift/openwrt_jacelift2022.git",
   "svn_url": "https://github.com/jacelift/openwrt_jacelift2022",
 ```
+【changelog】
+
+2022.01.24
+=
+```
+1、默认开启无线网络package/kernel/mac80211/files/lib/wifi/mac80211.sh：
+set wireless.radio${devidx}.disabled=1 改为 set wireless.radio${devidx}.disabled=0
+```
 
 ![OpenWrt logo](include/logo.png)
 
