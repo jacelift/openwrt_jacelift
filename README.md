@@ -16,6 +16,15 @@
 ```
 1、默认开启无线网络package/kernel/mac80211/files/lib/wifi/mac80211.sh：
 set wireless.radio${devidx}.disabled=1 改为 set wireless.radio${devidx}.disabled=0
+
+git.openwrt.org访问不了，无法更新，只能使用github源地址：
+更新如下：
+src-git packages https://github.com/openwrt/packages.git
+src-git luci https://github.com/openwrt/luci.git
+src-git routing https://github.com/openwrt-routing/packages.git
+src-git telephony https://github.com/openwrt/telephony.git
+src-git management https://github.com/openwrt-management/packages.git
+
 ```
 
 ![OpenWrt logo](include/logo.png)
